@@ -93,7 +93,7 @@ class Widget(QWidget):
 
 
     @Slot()
-    def check_disable(self, s):
+    def check_disable(self, x):
         if not self.description.text() or not self.price.text():
             self.add.setEnabled(False)
         else:
